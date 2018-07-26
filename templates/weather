@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        This is about weather. Today's weather is: {{ weather['name'] }}
+        <br>
+    <img src="{{ weather['image'] }}"/>
+    </body>
+    <center><p><a href="http://127.0.0.1:8086/">Main Page</a></p></center>
+</html>
